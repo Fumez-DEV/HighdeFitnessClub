@@ -1,33 +1,43 @@
 .main-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #003366;
-    padding: 1rem;
-    color: white;
+    justify-content: space-between; /* Align logo and navigation */
+    align-items: center; /* Vertically center items */
+    background-color: #003366; /* Dark blue background */
+    padding: 1rem; /* Spacing around the content */
+    color: white; /* White text color */
 }
 
 .main-header .logo {
-    max-width: 150px;
+    border-radius: 50%; /* Makes the logo circular */
+    max-width: 150px; /* Adjust logo size */
+    margin-right: 1rem; /* Add spacing between logo and navigation */
+    cursor: pointer; /* Add pointer cursor for interactivity */
+}
+
+.main-header .logo:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    transition: transform 0.3s ease;
 }
 
 .main-header nav ul {
-    list-style: none;
-    display: flex;
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Inline navigation links */
     margin: 0;
     padding: 0;
 }
 
 .main-header nav ul li {
-    margin-left: 1rem;
+    margin-right: 1.5rem; /* Add spacing between links */
 }
 
 .main-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Adjust font size */
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 .main-header nav ul li a:hover {
-    text-decoration: underline;
+    color: #1E90FF; /* Bright blue on hover */
+    text-decoration: underline; /* Add underline on hover */
 }

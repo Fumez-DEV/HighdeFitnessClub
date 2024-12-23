@@ -1,0 +1,134 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+html, body {
+    font-family: "Assistant", sans-serif;
+    direction: rtl;
+    background-color: #ffffff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Enable smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Light gray background for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for contrast */
+}
+
+/* Section Styles */
+section {
+    padding: 1.5rem;
+}
+
+a, button {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    background-color: #003366;
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* Services Section */
+#services {
+    text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #003366;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+}
+
+#services ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #e0e7ff; /* Light blue background */
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #003366;
+}
+
+#testimonials p {
+    font-size: 1rem;
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+/* Call-to-Action Section */
+#contact-cta {
+    text-align: center;
+    margin: 2rem 0;
+    background-color: #1E90FF;
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+#contact-cta h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+#contact-cta p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+#contact-cta .cta-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #1E90FF;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#contact-cta .cta-button:hover {
+    background-color: #003366;
+    color: white;
+}

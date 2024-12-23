@@ -1,0 +1,33 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    padding: 1rem;
+    color: white;
+}
+
+.main-header .logo {
+    max-width: 150px;
+}
+
+.main-header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header nav ul li {
+    margin-left: 1rem;
+}
+
+.main-header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.main-header nav ul li a:hover {
+    text-decoration: underline;
+}
